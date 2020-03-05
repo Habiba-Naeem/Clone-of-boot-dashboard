@@ -1,0 +1,90 @@
+body{
+    margin: 0%;
+    padding: 0%;
+}
+#nh1{
+    background-color: rgb(26, 26, 26);
+    display: inline-block;
+    width: 80%;
+}
+.header{
+    padding: 0.5%;
+    margin: 0%;
+    width: 100%;
+}
+#search:active, #search:focus{
+    background-color: white;
+    outline: 2px solid gray;
+}
+
+#nh1 button:hover{
+    color: lightgrey;
+}
+
+.left{
+    
+    float: left;
+    margin: 0%;
+    width: 20%;
+}
+
+.left button{
+    display: block;
+    padding: 3%;
+    text-align: left;
+    width: 100%;
+    background-color: white;
+    font-size: 14px;
+    color: #000;
+    font-weight: bolder;
+
+}
+
+
+.left h3{
+    background-color: rgb(26, 26, 26);
+    font-size: large;
+    color: white;
+    padding: 4.5%;
+    margin: 0%;
+    font-weight: lighter;
+}
+
+.content{
+    display: inline-block;
+    border: 1px solid rgb(197, 197, 197);
+    width: 77.5%;
+    padding: 1%;
+    background-color: hotpink;
+}
+.content h1{
+    display: inline-block;
+}
+
+#but{
+    display: inline-block;
+    padding: 0%;
+    margin-left: 50%;
+    background-color: green;
+   
+}
+
+#but button{
+    border: 1px solid rgb(197, 197, 197);
+    border-radius: 10%;
+    font-size: 14px;
+    padding: 1%;
+    width: 30%;
+}
+#but:not(:last-child) {
+    border-right: none; /* Prevent double borders */
+}
+
+select{
+    float: right;
+    margin-left: 3%;
+    padding: 0.2%;
+    color: gray;
+    border-radius: 10%;
+    font-size: 14px;
+}
