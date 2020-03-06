@@ -1,4 +1,90 @@
-%header{
+
+
+header>div{
+    input[type=search]{
+        font-size: medium;
+        background-color: rgb(53, 53, 53);
+        width: 90%;
+        padding: 1%;
+        border: none;
+    }
+    input[type=search]:focus{
+        background-color: white;
+        color: gray;
+        outline-color: gray;
+    }
+
+    button[type=button]{
+        font-size: 14px;
+        background-color: transparent;
+        border: none;
+        padding: 1%;
+        padding-right:2% ;
+        color: gray;
+    }
+    button[type=button]:hover{
+        color: lightgray;
+        cursor: pointer;
+    }
+}
+nav{
+    strong{
+        position: relative;
+        left: 20px;
+        font-size: small;
+    }
+    button{
+        position: relative;
+        left: 150px;
+        border: 1px solid gray;
+        border-radius: 100%;
+    }
+    button:hover{
+        cursor: pointer;
+    }
+}
+
+section{
+    div{
+        display: inline-block;
+        position: relative;
+        width: 30%;
+        left: 40%;
+        button{
+            float: left;
+            padding: 2%;
+            border: 1px solid gray;
+            width: 20%;
+            border-top-left-radius: 0.2rem;
+            border-bottom-left-radius: 0.2rem;
+        }
+        button:hover,select:hover, button:focus, select:focus{
+            outline-color: gray;
+            cursor: pointer;
+            color: white;
+            background-color: gray;
+        }
+        select{
+            position: relative;
+            left: 30px;
+            padding: 2%;
+            border: 1px solid gray;
+            border-radius: 0.2rem;
+        }
+    }
+}
+    
+
+
+
+
+
+
+
+
+
+
+/*%header{
     font-size: medium;
     padding: 0.8%;
     border: 0px solid;
@@ -28,6 +114,7 @@ button{
 }
 
 #but button{
-    @extend %thebuttons;
+    @extend %thebutt
 }
 
+*/

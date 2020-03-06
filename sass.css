@@ -1,0 +1,93 @@
+header > div input[type=search] {
+  font-size: medium;
+  background-color: #353535;
+  width: 90%;
+  padding: 1%;
+  border: none; }
+header > div input[type=search]:focus {
+  background-color: white;
+  color: gray;
+  outline-color: gray; }
+header > div button[type=button] {
+  font-size: 14px;
+  background-color: transparent;
+  border: none;
+  padding: 1%;
+  padding-right: 2%;
+  color: gray; }
+header > div button[type=button]:hover {
+  color: lightgray;
+  cursor: pointer; }
+
+nav strong {
+  position: relative;
+  left: 20px;
+  font-size: small; }
+nav button {
+  position: relative;
+  left: 150px;
+  border: 1px solid gray;
+  border-radius: 100%; }
+nav button:hover {
+  cursor: pointer; }
+
+section div {
+  display: inline-block;
+  position: relative;
+  width: 30%;
+  left: 40%; }
+  section div button {
+    float: left;
+    padding: 2%;
+    border: 1px solid gray;
+    width: 20%;
+    border-top-left-radius: 0.2rem;
+    border-bottom-left-radius: 0.2rem; }
+  section div button:hover, section div select:hover, section div button:focus, section div select:focus {
+    outline-color: gray;
+    cursor: pointer;
+    color: white;
+    background-color: gray; }
+  section div select {
+    position: relative;
+    left: 30px;
+    padding: 2%;
+    border: 1px solid gray;
+    border-radius: 0.2rem; }
+
+/*%header{
+    font-size: medium;
+    padding: 0.8%;
+    border: 0px solid;
+    color: gray;
+}
+
+%thebuttons{
+    float: left;
+    background-color: white;
+    color: gray;
+    padding: 5%;
+    font-size: small;
+}
+
+input[type=search]{
+    @extend %header;
+    background-color: rgb(83, 83, 83);
+    width: 90%;
+    border:rgb(83, 83, 83);
+}
+
+button{
+    @extend %header;
+    background-color: rgb(24, 24, 24);
+    font-size: 14px;
+    
+}
+
+#but button{
+    @extend %thebutt
+}
+
+*/
+
+/*# sourceMappingURL=sass.css.map */

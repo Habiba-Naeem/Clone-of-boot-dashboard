@@ -1,90 +1,65 @@
 body{
     margin: 0%;
     padding: 0%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
-#nh1{
-    background-color: rgb(26, 26, 26);
-    display: inline-block;
-    width: 80%;
-}
-.header{
-    padding: 0.5%;
-    margin: 0%;
+
+header{
+    position: fixed;
+    background-color: rgb(39, 39, 39);
     width: 100%;
-}
-#search:active, #search:focus{
-    background-color: white;
-    outline: 2px solid gray;
-}
-
-#nh1 button:hover{
-    color: lightgrey;
-}
-
-.left{
     
-    float: left;
-    margin: 0%;
+}
+h3{
+    display: inline-block;
+    color: white;
+    position: relative;
+    left: 10px;
+    font-weight: lighter;
     width: 20%;
 }
-
-.left button{
-    display: block;
-    padding: 3%;
-    text-align: left;
-    width: 100%;
-    background-color: white;
+header>div{
+    display: inline-block;
+    position: relative;
+    left:7px;
+    bottom: 4px;
+    width: 79%;
+}
+nav{
+    position: fixed ;
+    top:62px;
+    width: 21%;
+    color: rgb(71, 71, 71);
+    border-right: 1px solid rgb(218, 218, 218) ;
+}
+ul{
+    list-style: none;
     font-size: 14px;
-    color: #000;
-    font-weight: bolder;
-
+    font-weight: 600;
 }
 
-
-.left h3{
-    background-color: rgb(26, 26, 26);
-    font-size: large;
-    color: white;
-    padding: 4.5%;
-    margin: 0%;
-    font-weight: lighter;
+li{
+    padding: 2%;
+    padding-bottom: 5%;
+}
+li:hover{
+    cursor: pointer;
+    font-weight: 800;
 }
 
-.content{
+section{
+    position: relative;
+    top: 62px;
+    left: 287px;
+    padding-right:1% ;
+}
+
+h1{
     display: inline-block;
-    border: 1px solid rgb(197, 197, 197);
-    width: 77.5%;
-    padding: 1%;
-    background-color: hotpink;
-}
-.content h1{
-    display: inline-block;
-}
-
-#but{
-    display: inline-block;
-    padding: 0%;
-    margin-left: 50%;
-    background-color: green;
-   
-}
-
-#but button{
-    border: 1px solid rgb(197, 197, 197);
-    border-radius: 10%;
-    font-size: 14px;
-    padding: 1%;
-    width: 30%;
-}
-#but:not(:last-child) {
-    border-right: none; /* Prevent double borders */
-}
-
-select{
-    float: right;
     margin-left: 3%;
-    padding: 0.2%;
-    color: gray;
-    border-radius: 10%;
-    font-size: 14px;
+    font-weight: 500;
+    font-size: xx-large;
 }
+table { 
+    border-spacing: 100px 10px;
+} 
